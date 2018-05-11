@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class Java8CollectorsExample {
  
 	public static void main(String[] args) {
-		List<Integer> intList=Arrays.asList(10,20,30,40,50);
+		List<Integer> intList=Arrays.asList(110,220,330,440,550);
 		// Counting
 		long  count = intList.stream().collect(Collectors.counting());
 		System.out.println("Count Num of element::"+count);
